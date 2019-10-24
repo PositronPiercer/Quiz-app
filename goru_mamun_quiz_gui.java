@@ -427,7 +427,9 @@ op3.setSelected(false);
         sattempt.setVisible(false);
             initiate_quiz(((JButton)e.getSource()).getText());
         }
-        catch(Exception er){}
+        catch(Exception er){
+            System.out.println("Error in rendering buttons");
+        }
             
         }});
         
